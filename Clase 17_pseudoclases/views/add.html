@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <p class="barrasup">Descuentos 20%</p>
+      <h1 class="titulo">Heroes</h1>
+    </header>
+    <main class="add-car">
+      <section>
+        <form action="../index.html" method="POST">
+          <h2>Añadí tu super!</h2>
+          <p>Agregá tu personaje favorito completando las opciones.</p>
+          <div>
+            <div>
+              <label>*Nombre</label>
+              <input type="text" name="nombre" required>
+            </div>
+            <div>
+              <label>*Especie</label>
+              <select name="Especie" required>
+                <option value="">--Especie--</option>
+                <option value="SuperH">SuperHeroe</option>
+                <option value="Heroe">Heroe</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div>
+              <label>Fecha</label>
+              <input type="date" name="fecha" value="">
+            </div>
+            <div>
+              <label>Agregar foto</label>
+              <input type="file" name="foto" accept=".jpg,.png, jpeg">
+            </div>
+          </div>
+          <div>
+            <div>
+              <label></label>
+              <textarea name="desc" id="" rows="14" cols="15" placeholder="Descripción"></textarea>
+            </div>
+            <div>
+              <div>
+                <label>Poderes</label>
+                <input type="checkbox" name="volar" value="Volar">
+                <input type="checkbox" name="superi" value="Superinteligencia">
+                <input type="checkbox" name="rayol" value="Visita de rayo láser">
+                <input type="checkbox" name="billeterag" value="Billetera Gorda">
+                
+              </div>
+              <div>
+                <label>Tipo de personaje</label>
+                <input type="text">
+              </div>
+            </div>
+                        
+          </div>
+          <button type="submit">Añadir</button></button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+  </body>
+</html>
